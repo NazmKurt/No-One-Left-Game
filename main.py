@@ -53,6 +53,7 @@ print_slowly("You stand up, swaying slightly in the water. Your first goal is to
 print_slowly("But first, you need to understand what happened here.")
 print_slowly("And perhaps, in this dark world, there is still a glimmer of hope..")
 print_slowly("...")
-time.sleep(2)
+time.sleep(1)
+press_enter_to_continue()
 
 game.run()
