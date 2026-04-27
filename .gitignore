@@ -1,0 +1,4 @@
+save_game.json
+__pycache__/
+*.pyc
+.venv/
