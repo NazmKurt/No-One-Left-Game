@@ -32,3 +32,10 @@ def get_choice(valid_choices):
             
 def press_enter_to_continue():
     input("\n[ Press Enter to continue ]")
+
+def get_choice(valid_choices, prompt="Choose an option: "):
+    while True:
+        choice = input(prompt)
+        if choice in valid_choices:
+            return choice
+        print("Invalid choice, please try again.")
